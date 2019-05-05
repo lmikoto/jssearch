@@ -9,7 +9,7 @@ const uglifyJSPlugin = new UglifyJSPlugin();
 // 对babel的配置，内容同.babelrc文件
 const babelOptions = {
   "presets": [
-    ["env", {
+    ["@babel/preset-env", {
       "targets": {
         "browsers": ["last 2 versions", "safari >= 7"]
       }
