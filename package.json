@@ -45,15 +45,15 @@
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
-    "p": "npm version patch && npm publish"
+    "p": "npm version patch && npm publish --access public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lmikoto/ts-uitils-template.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "lmikoto",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lmikoto/ts-uitils-template/issues"
   },
